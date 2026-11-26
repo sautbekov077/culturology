@@ -1,0 +1,52 @@
+{
+  "id": "./",
+  "name": "Культурология — тренажёр",
+  "short_name": "Культурология",
+  "description": "300 вопросов по культурологии: 10 разделов, мгновенная проверка ответов, работа над ошибками и офлайн-режим.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#faf6f6",
+  "theme_color": "#a3162e",
+  "categories": ["education", "books", "reference"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Случайный тест",
+      "short_name": "Тест",
+      "description": "20 случайных вопросов из всех разделов",
+      "url": "./#/quiz/quick",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Работа над ошибками",
+      "short_name": "Ошибки",
+      "description": "Повторить вопросы, в которых были ошибки",
+      "url": "./#/quiz/mistakes",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
